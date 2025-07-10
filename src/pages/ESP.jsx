@@ -19,7 +19,7 @@ const ESP = () => {
   const [totalImages, setTotalImages] = useState(0);
 
   const imageRef = useRef(null);
-  const espCamUrl = "http://192.168.102.127/capture";
+  const espCamUrl = "http://192.168.1.200/capture";
 
   // Function to get total count of images in 'kendaraan' collection
   const getTotalImages = async () => {
